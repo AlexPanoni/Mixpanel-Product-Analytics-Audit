@@ -40,6 +40,20 @@ Reverse-engineering the `Upgrade` event revealed that revenue is driven by **Soc
 
 ---
 
+## 🛠 Tools & Data
+* **Mixpanel:** Funnels, Retention (Linear & N-Day), Flows, Insights, and Cohort Analysis.
+* **Analytical Frameworks:** TTV (Time-to-Value), Product-Market Fit (PMF) Bedrock, Behavioral Archetypes.
+* **Data Transparency:** I have included the raw **`social_lexicon_data.csv`** in this repository. This file contains the anonymized event counts and cohort metrics pulled from Mixpanel that served as the foundation for the retention modeling and monetization correlations found in the report.
+
+---
+
+## 📂 Repository Contents
+* `Mixpanel_Product_Analysis.pdf`: The final 13-page strategic audit.
+* `social_lexicon_data.csv`: Raw data export used for the longitudinal study.
+* `images/`: High-resolution screenshots of the Mixpanel dashboard.
+
+---
+
 ## 🛠 Tools Used
 * **Mixpanel:** Funnels, Retention (Linear & N-Day), Flows, Insights, and Cohort Analysis.
 * **Analytical Frameworks:** TTV (Time-to-Value), Product-Market Fit (PMF) Bedrock, Behavioral Archetypes.
