@@ -1,0 +1,187 @@
+Entity Type,Entity Name,Entity Display Name,Entity Description,Event Volume,Event Query Volume,Event Tags,Event Hidden,Event Dropped,Event First Queried By,Event First Queried,Event Last Queried By,Event Last Queried,Property Name,Property Display Name,Property Description,Property Volume,Property Query Volume,Property Type,Property Example Values,Property Hidden,Property Dropped,Property Required,Property Sensitive
+event,send message,send message,a user DMs another user,70460,1987,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",67302,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,67302,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,67302,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,67302,691,string,,False,False,False,False
+,,,,,,,,,,,,,encrypted?,,,67302,7,string,,False,False,False,False
+,,,,,,,,,,,,,ephemeral?,,,67302,552,string,,False,False,False,False
+,,,,,,,,,,,,,message size (words),,,67302,344,number,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",67302,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,67302,1823,string,Song Played,False,False,False,False
+event,app open,app open,a user opens the app,83430,1626,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",79730,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,79730,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,79730,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,79730,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",79730,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,79730,1823,string,Song Played,False,False,False,False
+event,sign up,sign up,a user signs up for a new account,25017,1593,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",24262,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,24262,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,24262,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Experiment Group,,,24262,0,string,,False,False,False,False
+,,,,,,,,,,,,,Platform,,,24262,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",24262,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,24262,1823,string,Song Played,False,False,False,False
+event,browse feed,scroll feed,a user scrolls through their feed of matches; one event may represent many profile impressions,254189,1491,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",243162,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,243162,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,243162,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,243162,691,string,,False,False,False,False
+,,,,,,,,,,,,,engage time (mins),,,243162,434,number,,False,False,False,False
+,,,,,,,,,,,,,latency (ms),,,243162,0,number,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",243162,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,243162,1823,string,Song Played,False,False,False,False
+event,add friend,add friend,a user adds a friend to their network,455108,1445,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",434547,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,434547,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,434547,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,434547,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",434547,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,434547,1823,string,Song Played,False,False,False,False
+event,post,post,a user write a text post or records a video or shares a photo,401599,956,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",383626,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,383626,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,383626,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,383626,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",383626,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,post features,,,383626,373,list,,False,False,False,False
+,,,,,,,,,,,,,post_id,,,383626,2,number,,False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,383626,1823,string,Song Played,False,False,False,False
+event,like post,like post,a user gives a post thumbs up,486146,743,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",464313,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,464313,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,464313,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,464313,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",464313,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,post features,,,464313,373,list,,False,False,False,False
+,,,,,,,,,,,,,post_id,,,464313,2,number,,False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,464313,1823,string,Song Played,False,False,False,False
+event,app install,app install,a user installs the app,18115,570,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",17637,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,17637,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,17637,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,17637,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",17637,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,utm_campaign,UTM Campaign,Identifies which promotion sent traffic (by campaign name).,17637,0,string,"Summer Sale, Free Trial",False,False,False,False
+,,,,,,,,,,,,,utm_source,UTM Source,Identifies which site sent the traffic.,17637,1902,string,"Facebook, LinkedIn",False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,17637,1823,string,Song Played,False,False,False,False
+custom_event,$custom_event:1656977,interact with post,,0,560,,False,False,,,,,,,,,,,,,,,
+event,ad data,ad data,aggregated advertising data from the third party ad networks to represent ad spend,3,468,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$mp_lib,,,3,0,string,,True,False,False,False
+,,,,,,,,,,,,,$source,,,3,0,string,,True,False,False,False
+,,,,,,,,,,,,,campaign_id,,,3,0,string,,True,False,False,False
+,,,,,,,,,,,,,campaign_name,,,3,0,string,,True,False,False,False
+,,,,,,,,,,,,,clicks,,,3,475,number,,False,False,False,False
+,,,,,,,,,,,,,cost,,,3,475,number,,False,False,False,False
+,,,,,,,,,,,,,impressions,,,3,471,number,,False,False,False,False
+,,,,,,,,,,,,,network,,,3,0,string,,True,False,False,False
+,,,,,,,,,,,,,source,,,3,0,string,,True,False,False,False
+,,,,,,,,,,,,,utm_campaign,UTM Campaign,Identifies which promotion sent traffic (by campaign name).,3,0,string,"Summer Sale, Free Trial",False,False,False,False
+,,,,,,,,,,,,,utm_source,UTM Source,Identifies which site sent the traffic.,3,1902,string,"Facebook, LinkedIn",False,False,False,False
+,,,,,,,,,,,,,views,,,3,0,number,,True,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,3,1823,string,Song Played,False,False,False,False
+event,downgrade,downgrade,a user cancels their plan or downgrades to free,13177,424,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",12599,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,12599,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,12599,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,12599,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",12599,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,plan,,,12599,425,string,,False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,12599,1823,string,Song Played,False,False,False,False
+event,$session_start,session (start),Mixpanel virtual event triggered at the start of each user's session. See definitions & update session timeout length or exclude events from sessions in project settings.,0,109,,False,False,,,,,,,,,,,,,,,
+event,onboarding complete,onboard complete,a user finished creating and their account and setting up their profile,15230,73,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",14755,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,14755,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,14755,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,14755,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",14755,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,14755,1823,string,Song Played,False,False,False,False
+event,generic event,,,58039,31,,True,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",55469,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,55469,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,55469,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,55469,691,string,,False,False,False,False
+,,,,,,,,,,,,,lucky number,,,55469,0,number,,True,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",55469,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,55469,1823,string,Song Played,False,False,False,False
+event,page view,page view,a user loads a page,91852,26,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",87972,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,87972,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,87972,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,87972,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",87972,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,path,,,87972,1,string,,False,False,False,False
+,,,,,,,,,,,,,utm_campaign,UTM Campaign,Identifies which promotion sent traffic (by campaign name).,17879,0,string,"Summer Sale, Free Trial",False,False,False,False
+,,,,,,,,,,,,,utm_source,UTM Source,Identifies which site sent the traffic.,17879,1902,string,"Facebook, LinkedIn",False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,87972,1823,string,Song Played,False,False,False,False
+event,update profile,update profile,"a user updates their information, demographics, or ""front-page""",68611,25,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",66405,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,66405,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,66405,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,66405,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",66405,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,66405,1823,string,Song Played,False,False,False,False
+event,comment,reply,a user comments or replies to a message or post,597059,23,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",570434,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,570434,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,570434,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,570434,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",570434,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,post features,,,570434,373,list,,False,False,False,False
+,,,,,,,,,,,,,post_id,,,570434,2,number,,False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,570434,1823,string,Song Played,False,False,False,False
+event,search friends,search friends,a user searchers through their connections to find other users,60933,9,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",58137,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,58137,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,58137,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,58137,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",58137,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,search results,,,58137,0,list,,False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,58137,1823,string,Song Played,False,False,False,False
+event,$session_end,session (end),Mixpanel virtual event triggered at the end of each user's session. See definitions & update session timeout length or exclude events from sessions in project settings.,0,9,,False,False,,,,,,,,,,,,,,,
+event,upgrade,upgrade,a user becomes paid or upgrades their plan,17835,5,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",17035,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,17035,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,17035,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,MRR ($USD),,,17035,2,number,,False,False,False,False
+,,,,,,,,,,,,,Platform,,,17035,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",17035,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,plan,,,17035,425,string,,False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,17035,1823,string,Song Played,False,False,False,False
+event,remove friend,remove friend,a user deletes a friend from their network,30468,2,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",29098,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,29098,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,29098,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,29098,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",29098,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,29098,1823,string,Song Played,False,False,False,False
+event,interact with post,,,0,2,,False,False,,,,,,,,,,,,,,,
+event,dislike post,dislike post,"a user gives a post ""thumbs down""",406992,1,,False,False,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",389351,115,string,"San Francisco, Los Angeles",False,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,389351,315,string,"Mac OS X, Windows",False,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,389351,320,string,"California, New York",False,False,False,False
+,,,,,,,,,,,,,Platform,,,389351,691,string,,False,False,False,False
+,,,,,,,,,,,,,mp_country_code,Country,"The country of the event sender, parsed from IP.",389351,584,string,"United States, Canada",False,False,False,False
+,,,,,,,,,,,,,post features,,,389351,373,list,,False,False,False,False
+,,,,,,,,,,,,,post_id,,,389351,2,number,,False,False,False,False
+,,,,,,,,,,,,,$event_name,Event Name,Name of the event,389351,1823,string,Song Played,False,False,False,False
+event,Social Posting Score,,,0,1,,False,False,,,,,,,,,,,,,,,
+profile,$user,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,$last_seen,Updated at,Timestamp of the last profile update.,200000,0,datetime,2012-11-20T15:26:19,True,False,False,False
+,,,,,,,,,,,,,# friends,,,100000,25,number,,False,False,False,False
+,,,,,,,,,,,,,$avatar,Avatar URL,"URL resource of a gif, jpg, jpeg, or png to update the profile picture in a profile. This property will override a profile picture pulled from Gravatar.",100000,0,string,,True,False,False,False
+,,,,,,,,,,,,,$city,City,"The city of the event sender, parsed from IP.",100000,3,string,"San Francisco, Los Angeles",True,False,False,False
+,,,,,,,,,,,,,$country_code,Country Code,"The two-letter country code of the event sender, parsed from IP.",100000,0,string,"US, ES (Spain)",True,False,False,False
+,,,,,,,,,,,,,$created,Created,The time that the profile was created.,100000,65,datetime,2018-01-01T00:00:00,False,False,False,False
+,,,,,,,,,,,,,$email,Email,The user's email address.,100000,1,string,xyz@lmnop.com,True,False,False,False
+,,,,,,,,,,,,,$geo_source,Geo Source,Internal Mixpanel property to record the source used to determine location,100000,0,string,reverse_geocoding,True,False,False,False
+,,,,,,,,,,,,,$name,Name,The full name of the user.,100000,0,string,Nicole Johnson,True,False,False,False
+,,,,,,,,,,,,,$os,Operating System,The operating system of the event sender.,100000,0,string,"Mac OS X, Windows",True,False,False,False
+,,,,,,,,,,,,,$region,Region,The region (state or province) of the event sender that is parsed from IP.,100000,0,string,"California, New York",True,False,False,False
+,,,,,,,,,,,,,age,,,100000,23,number,,False,False,False,False
+,,,,,,,,,,,,,astral sign,,,100000,0,string,,False,False,False,False
+,,,,,,,,,,,,,plan,,,100000,1,string,,False,False,False,False
+,,,,,,,,,,,,,user preferences,,,100000,0,list,,False,False,False,False
+,,,,,,,,,,,,,$distinct_id,Distinct ID,The way to uniquely identify your users. You can set this to any value using the identify method. Some Mixpanel libraries assign a random value by default.,200000,0,string,166424e227e7fb-0ff2f469b2f1fc-2d6a4f35,True,False,False,False
